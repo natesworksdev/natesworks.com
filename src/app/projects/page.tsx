@@ -15,7 +15,28 @@ const projects: Project[] = [
     description: "Discover brawl stars mods!",
     tags: ['Website'],
     url: "https://brawlmods.natesworks.com"
-  }
+  },
+  {
+    id: 2,
+    name: "Reversedrive",
+    description: "Allows downloading files uploaded to Drive directly.",
+    tags: ['Python script'],
+    url: "https://github.com/natesworksdev/reversedrive"
+  },
+  {
+    id: 3,
+    name: "Directmedia",
+    description: "Allows downloading files uploaded to Mediafire directly.",
+    tags: ['Python script'],
+    url: "https://github.com/natesworksdev/directmedia"
+  },
+  {
+    id: 4,
+    name: "Direct download link generator (DDL)",
+    description: "A website and api that allows you to create permanent direct links to Mediafire that you can share.",
+    tags: ['Website'],
+    url: "https://github.com/natesworksdev/reversedrive"
+  },
 ]
 
 export default function Projects() {
