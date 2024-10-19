@@ -37,6 +37,13 @@ const projects: Project[] = [
     tags: ['Website'],
     url: "https://github.com/natesworksdev/reversedrive"
   },
+  {
+    id: 5,
+    name: "LunarWM",
+    description: "A Linux and BSD stacking window manager",
+    tags: ['Website'],
+    url: "https://github.com/lunarwm/lunarwm"
+  },
 ]
 
 export default function Projects() {
